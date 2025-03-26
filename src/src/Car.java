@@ -10,9 +10,7 @@ public class Car {
         this.model = model;
         this.year = year;
     }
-  /*  public void displayInfo() {
-        System.out.println(brand + ' ' + model + ' '+ year);
-    }*/
+
 
        public String getBrand() {
         return brand;
@@ -36,5 +34,11 @@ public class Car {
 
     public void setYear (int year) {
            this.year = year;
+    }
+
+    public void displayInfo() {
+        System.out.println("Автомобиль" + " " + getBrand());
+        System.out.println("Модель" + " " + getModel());
+        System.out.println("Год" + " " + getYear());
     }
 }
