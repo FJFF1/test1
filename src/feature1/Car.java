@@ -1,4 +1,4 @@
-package src;
+package feature1;
 
 public class Car {
     private String brand;
@@ -12,7 +12,7 @@ public class Car {
     }
 
 
-       public String getBrand() {
+    public String getBrand() {
         return brand;
     }
 
