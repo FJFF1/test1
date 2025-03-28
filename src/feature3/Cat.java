@@ -1,7 +1,13 @@
-package feature3;
-
 public class Cat extends Animal {
-    public void meow() {
+    public Cat(String name, double age) {
+        super(name, age);
+    }
+
+    //  public void meow (){
+    @Override
+    public void makeSound () {
         System.out.println("мяу!");
+
+        //}
     }
 }
