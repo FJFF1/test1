@@ -11,7 +11,14 @@ package feature4;
 //        System.out.println("Площадь круга = " + circle.calculateArea());
 //    }
 //}
+//в последнем задании, в тестировании сделай следующее:
+//
+//создай List, в цикле рандомно добавь 15 фигур;
+//в цикле по листу выведи подобным образом - System.out.println("Площадь прямоугольника = " + rectangle.calculateArea());в последнем задании, в тестировании сделай следующее:
+//
+//создай List, в цикле рандомно добавь 15 фигур;
+//в цикле по листу выведи подобным образом - System.out.println("Площадь прямоугольника = " + rectangle.calculateArea());
 
-public abstract class Shape {
-
-    public abstract double calculateArea ();}
+public interface Shape {
+    String getName();
+    double calculateArea ();}

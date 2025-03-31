@@ -1,6 +1,6 @@
 package feature4;
 
-public class Rectangle extends Shape {
+ public class Rectangle implements Shape {
 
     private double width;
     private double height;
@@ -13,6 +13,11 @@ public class Rectangle extends Shape {
     @Override
     public double calculateArea() {
         return width * height;
-//
+
+    }
+
+    @Override
+     public String getName() {
+        return "прямоугольника";
     }
 }
