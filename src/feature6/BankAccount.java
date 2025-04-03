@@ -72,32 +72,3 @@ public class BankAccount {
     }
 }
 
-
-
-//public class Main {
-//    public static void main(String[] args) {
-//        try {
-//            // Попробуем вызвать метод с некорректным аргументом
-//            int result = divide(10, 0);
-//            System.out.println("Результат: " + result);
-//        } catch (IllegalArgumentException e) {
-//            // Обработка IllegalArgumentException
-//            System.err.println("Ошибка: " + e.getMessage());
-//        }
-//    }
-
-//    public static int divide(int numerator, int denominator) {
-//        // Проверка аргументов
-//        if (denominator == 0) {
-//            throw new IllegalArgumentException("Делитель не может быть нулем.");
-//        }
-//        return numerator / denominator;
-////    }
-//
-//Модифицируйте задание "Банк", добавив обработку ошибок:
-//        • Выбрасывайте IllegalArgumentException, если при снятии средств баланс
-//        становится отрицательным.
-//        • Выбрасывайте IllegalArgumentException, если пополнение или снятие меньше
-//        нуля.
-//        Протестируйте исключения в mai
-//}
