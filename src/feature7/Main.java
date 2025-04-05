@@ -25,7 +25,7 @@ public class Main {
     }
 
         library.removeBook(book4);
-        System.out.println("Книга "+ book4.getTitle() + " - удалена.");
+
         for (Book book : library.displayBooks()) {
             System.out.println("Название: " + book.getTitle() + ". Автор: " + book.getAuthor());
         }
