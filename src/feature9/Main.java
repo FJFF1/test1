@@ -1,10 +1,11 @@
 package feature9;
 
 public class Main {
-    static int taskManager;
-    static void initTasks(){
-        getNumber
+    public static void main(String[] args){
+
     }
+    static int taskManager;
+    static void initTasks(){}
 }
 
 

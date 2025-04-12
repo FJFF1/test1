@@ -1,15 +1,16 @@
 package feature9;
 
-import
+
+import java.util.Map;
 
 public class TaskManager {
-    Map<Int, Task> tasks;
+    Map<Integer, Task> tasks;
 
-    public void addTask(Int number, Task task) {
+    public void addTask(Integer number, Task task) {
 
     }
 
-    void runTaskByNumber(Int task) {
+    void runTaskByNumber(Integer task) {
 
     }
 
