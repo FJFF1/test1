@@ -9,11 +9,6 @@ public interface Logger
     public void debug(String msg);
     public void error(String msg);
 
-    private void log(String msg, LogLevel logLevel){
-
-    }
-
-    String getLogger(String msg);
 
 }
 

@@ -1,10 +1,6 @@
 package loggerfactory;
 
 public interface ILoggerFactory {
-    void Logger();
+    Logger getLogger(String name);
 
-    void getLogger();
-
-    class Logger{}
-    class getLogger{}
 }

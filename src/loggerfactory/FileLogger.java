@@ -16,9 +16,5 @@ public class FileLogger implements Logger{
 
     }
 
-    @Override
-    public String getLogger() {
-        String name = getLogger();
-        return name;
-    }
+
     }
