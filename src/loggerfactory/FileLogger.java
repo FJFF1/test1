@@ -1,13 +1,13 @@
 package loggerfactory;
 
-public class FileLogger implements Logger{
+public class FileLogger implements Logger {
 
     @Override
     public void info(String msg) {
     }
 
     @Override
-    public void error(String msg){
+    public void error(String msg) {
 
     }
 
@@ -17,4 +17,4 @@ public class FileLogger implements Logger{
     }
 
 
-    }
+}

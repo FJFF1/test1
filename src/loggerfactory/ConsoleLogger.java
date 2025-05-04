@@ -2,12 +2,13 @@ package loggerfactory;
 
 import java.util.Date;
 
+
 public class ConsoleLogger implements Logger {
     @Override
     public void info(String msg) {
         Date date = new Date();
 
-        System.out.println(date +  ", " + LogLevel.INFO.name() + ": "+ msg);
+        System.out.println(date + ", " + LogLevel.INFO.name() + ": " + msg);
     }
 
     @Override
@@ -27,6 +28,4 @@ public class ConsoleLogger implements Logger {
     }
 
 
-
 }
-//    написать класс ConsoleLogger, реализующий интерфейс Logger. В конструктор передаём имя из getLogger(String name) и присваиваем полю name
